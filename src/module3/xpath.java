@@ -31,9 +31,8 @@ public class xpath {
 		Thread.sleep(3000);
 		
 		driver.findElement(By.xpath("//*[starts-with(text(),\"Test\")]")).click();
-		Thread.sleep(3000);
 		
-		
+		driver.close();
 		
 	}
 
